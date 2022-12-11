@@ -53,12 +53,8 @@ const HomePage = () => {
     </div>
 
     <div className="container mx-auto px-4 md:px-12 my-8">
-      <PosterSlider
-        title="Recommended Movies"
-        subtitle="List of recommended movies"
-        posters={recommendedMovies}
-        isDark={false}
-      />
+      <PosterSlider title="Recommended Movies" subtitle="List of recommended movies"
+        posters={recommendedMovies} isDark={false}/>
     </div>
 
     <div className="bg-premier-800 py-12">
